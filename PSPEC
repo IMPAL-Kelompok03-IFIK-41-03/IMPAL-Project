@@ -1,1 +1,27 @@
+package pspec;
 
+import java.util.Scanner;
+
+/**
+ *
+ * @author Irawansyah
+ */
+//No. proses    : 2.2
+//Nama proses   : Verifikasi user
+
+public class verifikasi_user {
+    public static void main(String[] args) {
+        //user sudah bisa login dan menginput username berupa email dan password
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukan Email: ");
+        String email = input.nextLine();
+        System.out.print("Masukan Password: ");
+        String password = input.nextLine();
+        String ya = null;
+        if(email== ya && password==ya){
+            System.out.println("Gagal Memverifikasi");
+        }else{
+            System.out.println("Login Berhasil");
+        }        
+    }
+}
