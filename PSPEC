@@ -25,3 +25,32 @@ public class verifikasi_user {
         }        
     }
 }
+
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ifdhal Hadi
+ */
+//Nomor proses : 3.1
+//Nama proses  : pilih rumpun jurusan 
+
+public class pilih_rumpun_jurusan {
+    public static void main(String[] args) {
+        //Pilih rumpun jurusan adalah proses setelah login
+        //Pilih menu test
+     
+        Scanner input = new Scanner(System.in);
+        System.out.println("PILIH RUMPUN JURUSAN YANG SESUAI DENGAN KALIAN");
+        System.out.print("IPA Atau IPS: ");
+        String IPA = input.nextLine().toLowerCase();
+        String c = null ;
+        if(IPA !=c){
+            System.out.print("RUMPUN JURUSAN YANG KAMU PILIH ADALAH: ");
+            System.out.println(IPA);
+        }else{
+            System.out.println(IPA);
+        }
+    }
+}
