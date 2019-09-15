@@ -97,3 +97,33 @@ public class pilih_rumpun_jurusan {
         }
     }
 }
+
+
+/**
+ *
+ * @author Kamila Hanum
+ */
+
+//No proses 	: 1.1
+//Nama proses 	: Isi data user
+
+public class isi_data_user {
+
+    public static void main(String[] args) {
+        //User membuka form data diri user
+        String nama,gender,email,password;
+        Scanner input = new Scanner(System.in);
+        nama = input.nextLine();
+        gender = input.nextLine();
+        email = input.nextLine();
+        password = input.nextLine();
+        System.out.print("Masukan nama user: ");
+        System.out.println(nama);
+        System.out.print("Masukan gender user: ");
+        System.out.println(gender);
+        System.out.print("Masukan email user: ");
+        System.out.println(email);
+        System.out.print("Masukan password user: ");
+        System.out.println(password);      
+    }   
+}
